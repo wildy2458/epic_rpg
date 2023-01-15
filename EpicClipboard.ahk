@@ -171,12 +171,12 @@ Join_RPG:
     
 Fish_RPG:
     ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, fish, ahk_exe Discord.exe
+    ControlSend,, lure, ahk_exe Discord.exe
     return
     
 Chop_RPG:
     ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, chop, ahk_exe Discord.exe
+    ControlSend,, cut, ahk_exe Discord.exe
     return
     
 Catch_RPG:
