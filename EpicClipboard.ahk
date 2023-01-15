@@ -40,17 +40,6 @@ Gui Add, Button, x60 y170 w45 h40 gFarmC_RPG, Farm 🌾
 Gui Add, Button, x105 y170 w90 h40 gQuest_RPG, Quest ❓
 Gui Add, Button, x195 y170 w90 h40 gEQuest_RPG, Epic Quest ❓
 
-; Reply Panel 
-Gui Add, GroupBox, x10 y215 w280 h105, Reply
-Gui Add, Button, x15 y235 w90 h40 gYes_RPG, Yes ✔️
-Gui Add, Button, x15 y275 w90 h40 gNo_RPG, No ❌
-Gui Add, Button, x105 y235 w60 h40 gA_RPG, A 🔠
-Gui Add, Button, x165 y235 w60 h40 gB_RPG, B 🔠
-Gui Add, Button, x225 y235 w60 h40 gC_RPG, C 🔠
-Gui Add, Button, x105 y275 w60 h40 g1_RPG, 1 🔢
-Gui Add, Button, x165 y275 w60 h40 g2_RPG, 2 🔢
-Gui Add, Button, x225 y275 w60 h40 g3_RPG, 3 🔢
-
 ; Pings Panel 
 Gui Add, GroupBox, x10 y320 w280 h105, Pings
 Gui Add, Button, x15 y340 w90 h40 gSummon_RPG, Summon 📦
@@ -214,45 +203,6 @@ EArmor_RPG:
     ControlSend,, rpg %enchant_str% armor, ahk_exe Discord.exe
     return
 
-Yes_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, y, ahk_exe Discord.exe
-    return
-
-No_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, n, ahk_exe Discord.exe
-    return
-
-A_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, a, ahk_exe Discord.exe
-    return
-
-B_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, b, ahk_exe Discord.exe
-    return
-
-C_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, c, ahk_exe Discord.exe
-    return
-
-1_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, 1, ahk_exe Discord.exe
-    return
-
-2_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, 2, ahk_exe Discord.exe
-    return
-
-3_RPG:
-    ControlFocus,, ahk_exe Discord.exe
-    ControlSend,, 3, ahk_exe Discord.exe
-    return
 
 GuiEscape:
 GuiClose:
