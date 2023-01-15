@@ -64,7 +64,7 @@ Gui Add, Button, x150 y445 w135 h40 gEArmor_RPG, ✨ Armor ✨
 ; Window Settings
 Gui, +Alwaysontop -MaximizeBox
 ; Show the window at the saved position
-Gui Show, %window_position% w300 h600, EPIC Clipboard
+Gui Show, %window_position% w300 h495, EPIC Clipboard
 Return
 
 ; Command Lines 
