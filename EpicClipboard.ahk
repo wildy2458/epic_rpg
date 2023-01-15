@@ -41,30 +41,30 @@ Gui Add, Button, x105 y170 w90 h40 gQuest_RPG, Quest ❓
 Gui Add, Button, x195 y170 w90 h40 gEQuest_RPG, Epic Quest ❓
 
 ; Pings Panel 
-Gui Add, GroupBox, x10 y320 w280 h105, Pings
-Gui Add, Button, x15 y340 w90 h40 gSummon_RPG, Summon 📦
-Gui Add, Button, x105 y340 w90 h40 gTimeFight_RPG, Time To Fight 🛡️
-Gui Add, Button, x195 y340 w90 h40 gJoin_RPG, Join 🍪
-Gui Add, Button, x15 y380 w90 h40 gFish_RPG, Lure 🐟 ;⚔
-Gui Add, Button, x105 y380 w90 h40 gChop_RPG, Cut 🎄 ;🎃
-Gui Add, Button, x195 y380 w90 h40 gCatch_RPG, Catch 🎺
+Gui Add, GroupBox, x10 y215 w280 h105, Pings
+Gui Add, Button, x15 y235 w90 h40 gSummon_RPG, Summon 📦
+Gui Add, Button, x105 y235 w90 h40 gTimeFight_RPG, Time To Fight 🛡️
+Gui Add, Button, x195 y235 w90 h40 gJoin_RPG, Join 🍪
+Gui Add, Button, x15 y275 w90 h40 gFish_RPG, Lure 🐟 ;⚔
+Gui Add, Button, x105 y275 w90 h40 gChop_RPG, Cut 🎄 ;🎃
+Gui Add, Button, x195 y275 w90 h40 gCatch_RPG, Catch 🎺
 
 ; Rewards Panel
-Gui Add, GroupBox, x10 y425 w280 h105, Rewards
-Gui Add, Button, x15 y445 w135 h40 gLootbox_RPG, 📦 Lootbox 📦
-Gui Add, Button, x150 y445 w135 h40 gVote_RPG, 🗳️ Vote 🗳️
-Gui Add, Button, x15 y485 w135 h40 gDaily_RPG, 📅 Daily 📅
-Gui Add, Button, x150 y485 w135 h40 gWeekly_RPG, 📆 Weekly 📆
+Gui Add, GroupBox, x10 y320 w280 h105, Rewards
+Gui Add, Button, x15 y340 w135 h40 gLootbox_RPG, 📦 Lootbox 📦
+Gui Add, Button, x150 y340 w135 h40 gVote_RPG, 🗳️ Vote 🗳️
+Gui Add, Button, x15 y380 w135 h40 gDaily_RPG, 📅 Daily 📅
+Gui Add, Button, x150 y380 w135 h40 gWeekly_RPG, 📆 Weekly 📆
 
 ; Enchant Panel
-Gui Add, GroupBox, x10 y530 w280 h65, Enchant
-Gui Add, Button, x15 y550 w135 h40 gESword_RPG, ✨ Sword ✨
-Gui Add, Button, x150 y550 w135 h40 gEArmor_RPG, ✨ Armor ✨
+Gui Add, GroupBox, x10 y425 w280 h65, Enchant
+Gui Add, Button, x15 y445 w135 h40 gESword_RPG, ✨ Sword ✨
+Gui Add, Button, x150 y445 w135 h40 gEArmor_RPG, ✨ Armor ✨
 
 ; Window Settings
 Gui, +Alwaysontop -MaximizeBox
 ; Show the window at the saved position
-Gui Show, %window_position% w300 h600, EPIC Clipboard
+Gui Show, %window_position% w300 h495, EPIC Clipboard
 Return
 
 ; Command Lines 
