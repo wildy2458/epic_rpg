@@ -45,8 +45,8 @@ Gui Add, GroupBox, x10 y215 w280 h105, Pings
 Gui Add, Button, x15 y235 w90 h40 gSummon_RPG, Summon 📦
 Gui Add, Button, x105 y235 w90 h40 gTimeFight_RPG, Time To Fight 🛡️
 Gui Add, Button, x195 y235 w90 h40 gJoin_RPG, Join 🍪
-Gui Add, Button, x15 y275 w90 h40 gFish_RPG, Lure 🐟 ;⚔
-Gui Add, Button, x105 y275 w90 h40 gChop_RPG, Cut 🎄 ;🎃
+Gui Add, Button, x15 y275 w90 h40 gLure_RPG, Lure 🐟 ;⚔
+Gui Add, Button, x105 y275 w90 h40 gCut_RPG, Cut 🎄 ;🎃
 Gui Add, Button, x195 y275 w90 h40 gCatch_RPG, Catch 🎺
 
 ; Rewards Panel
@@ -158,12 +158,12 @@ Join_RPG:
     ControlSend,, join, ahk_exe Discord.exe
     return
     
-Fish_RPG:
+Lure_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, lure, ahk_exe Discord.exe
     return
     
-Chop_RPG:
+Cut_RPG:
     ControlFocus,, ahk_exe Discord.exe
     ControlSend,, cut, ahk_exe Discord.exe
     return
